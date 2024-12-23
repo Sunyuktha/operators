@@ -1,0 +1,74 @@
+body {
+    background-color: #f3e8fa;
+    margin: 100px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.outer {
+    background-color: #eeb6e3; 
+    padding: 20px;
+    border-radius: 15px;
+    width: 1000px;height: 500px;
+    margin: auto;
+    
+}
+
+.inner{
+    text-align: center;
+    padding: 20px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.arthmetic {
+    width: 340px;
+    height: 270px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.relational {
+    width: 340px;
+    height: 270px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.assignment {
+    width: 340px;
+    height: 270px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.logical {
+    width: 340px;
+    height: 270px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #9d64ed;
+    color: white;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
